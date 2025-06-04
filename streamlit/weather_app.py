@@ -19,5 +19,6 @@ def get_weather_data():
 data = get_weather_data()
 print(data)
 
+st.title("This is a change")
 city = st.selectbox("Select city", options=["Berlin", "Sydney", "Tokyo"])
 st.write(data)
